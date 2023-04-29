@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" id="root" color-scheme="light">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <title>Superhero Hunter</title>
+
+     <!------- fontawesome ------->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!------- External Stylesheet ------->
+
+     <link rel="stylesheet" href="./css/index.css">
+     <link rel="stylesheet" href="./css/favourite.css">
+</head>
+
+<body>
+
+     <!------- Navbar ------->
+
+     <nav class="flex-row navbar">
+          <!-------  Icon and Name ------->
+          <div class="flex-row navbar-brand">
+               <img class="logo" src="https://th.bing.com/th/id/OIP.h2l1-KyYyHdJj_IHUip7rQHaHY?pid=ImgDet&rs=1" alt="">
+               <a href="./index.html">
+                    <span id="super-text">Superhero Hunter</span>
+               </a>
+          </div>
+          <!--Favourites ------->
+
+          <div>
+               <a class="toggle-bar" href="./index.html">
+                    <i class="fa-solid fa-house"></i>
+               </a>
+          </div>
+     </nav>
+
+     <!-- End of Navbar-->
+
+     <!--Favorite container-->
+     <div class="favourite-characters">
+          <div class="flex-row cards-container" id="container">
+          
+          </div>
+     </div>
+
+     <!--End of Favorite Container-->
+
+   
+     <!-- External Script-->
+     <script src="./javaScript/favourite.js"></script>
+
+</body>
+
+</html>

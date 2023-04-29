@@ -1,0 +1,63 @@
+
+/* Styling more information page */
+
+:root{ 
+
+    --navbar-dark-color:  rgb(186, 104, 118); 
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+}
+.cards-container{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#info-container {
+    background-color: rgb(207, 157, 62);
+    width: 75%;
+    height: auto;
+    gap: 15px;
+    padding: 15px 50px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    margin-top: 15%;
+    
+}
+
+.hero-name {
+    justify-content: center;
+}
+
+.hero-img-and-more-info {
+    gap: 30px;
+    
+}
+
+.hero-img {
+    width: 20%;
+    height: auto;
+    min-width: 80px;
+  
+    
+}
+
+.more-info {
+    gap: 15px;
+    font-size: 1.3rem;
+}
+
+
+
+
